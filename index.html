@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bar del Barrio — Montevideo</title>
+<meta name="description" content="Bar de barrio, tranquilo, de toda la vida. Buena mesa, buena compañía. Montevideo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- ===== HEADER / NAV ===== -->
+<header id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="logo">Bar del Barrio</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="siteNav">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#menu">Menú</a>
+      <a href="#galeria">Galería</a>
+      <a href="#horarios">Horarios</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Bar de barrio</p>
+      <h1>Un lugar tranquilo<br>para sentarse un rato.</h1>
+      <p class="hero-sub">Buena mesa, buena compañía, sin apuro. Un bar de siempre, para charlar como antes.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primario">Ver el menú</a>
+        <a href="#ubicacion" class="btn btn-borde">Cómo llegar</a>
+      </div>
+    </div>
+    <div class="placeholder-box hero-foto" data-label="FOTO PRINCIPAL — 1600×900"></div>
+  </section>
+
+  <!-- ===== NOSOTROS ===== -->
+  <section id="nosotros" class="section nosotros">
+    <div class="nosotros-wrap">
+      <div class="placeholder-box img-cuadrada" data-label="FOTO LOCAL / BARRA — 800×800"></div>
+      <div class="nosotros-texto">
+        <p class="eyebrow">Nosotros</p>
+        <h2>Un bar sin apuro</h2>
+        <p>Somos un bar de barrio, de esos donde uno se queda más tiempo del que pensaba. Mesas de madera, buena luz, y una carta simple que no cambia todos los días. Un lugar pensado para sentarse, charlar, y no mirar el reloj.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section id="menu" class="section menu">
+    <div class="section-head">
+      <p class="eyebrow">Menú</p>
+      <h2>Lo de siempre</h2>
+      <p class="section-sub">Precios de ejemplo — reemplazar con la carta real.</p>
+    </div>
+
+    <div class="menu-tabs">
+      <button class="tab-btn activo" data-tab="tragos">Tragos</button>
+      <button class="tab-btn" data-tab="cervezas">Cervezas</button>
+      <button class="tab-btn" data-tab="picadas">Picadas</button>
+    </div>
+
+    <div class="menu-panel activo" data-panel="tragos">
+      <ul class="menu-lista">
+        <li><span class="nombre">Vino de la casa<small>Tinto o blanco, la copa</small></span><span class="puntos"></span><span class="precio">$150</span></li>
+        <li><span class="nombre">Medio y medio</span><span class="puntos"></span><span class="precio">$180</span></li>
+        <li><span class="nombre">Grappamiel</span><span class="puntos"></span><span class="precio">$140</span></li>
+        <li><span class="nombre">Fernet con cola</span><span class="puntos"></span><span class="precio">$280</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-panel" data-panel="cervezas">
+      <ul class="menu-lista">
+        <li><span class="nombre">Cerveza tirada<small>Chopp 1/2 litro</small></span><span class="puntos"></span><span class="precio">$190</span></li>
+        <li><span class="nombre">Rubia<small>Botella 1/2 litro</small></span><span class="puntos"></span><span class="precio">$210</span></li>
+        <li><span class="nombre">Negra<small>Botella 1/2 litro</small></span><span class="puntos"></span><span class="precio">$220</span></li>
+        <li><span class="nombre">IPA<small>Botella 1/2 litro</small></span><span class="puntos"></span><span class="precio">$240</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-panel" data-panel="picadas">
+      <ul class="menu-lista">
+        <li><span class="nombre">Picada del bar<small>Fiambres, quesos, aceitunas</small></span><span class="puntos"></span><span class="precio">$690</span></li>
+        <li><span class="nombre">Tabla de quesos</span><span class="puntos"></span><span class="precio">$540</span></li>
+        <li><span class="nombre">Pancho casero</span><span class="puntos"></span><span class="precio">$210</span></li>
+        <li><span class="nombre">Milanesa al pan</span><span class="puntos"></span><span class="precio">$340</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== GALERIA ===== -->
+  <section id="galeria" class="section galeria">
+    <div class="section-head">
+      <p class="eyebrow">Galería</p>
+      <h2>Un vistazo al local</h2>
+    </div>
+    <div class="galeria-grid">
+      <div class="placeholder-box" data-label="FOTO 1"></div>
+      <div class="placeholder-box" data-label="FOTO 2"></div>
+      <div class="placeholder-box" data-label="FOTO 3"></div>
+      <div class="placeholder-box" data-label="FOTO 4"></div>
+      <div class="placeholder-box" data-label="FOTO 5"></div>
+      <div class="placeholder-box" data-label="FOTO 6"></div>
+    </div>
+  </section>
+
+  <!-- ===== HORARIOS + UBICACIÓN (texto) ===== -->
+  <section id="horarios" class="section horarios">
+    <div class="horarios-grid">
+      <div>
+        <p class="eyebrow">Horarios</p>
+        <h2>Cuándo estamos abiertos</h2>
+        <ul class="hours-list">
+          <li><span>Lunes a jueves</span><span>18:00 – 00:30</span></li>
+          <li><span>Viernes y sábados</span><span>18:00 – 02:00</span></li>
+          <li><span>Domingos</span><span>12:00 – 16:00</span></li>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>Dónde estamos</h2>
+        <p class="direccion-texto">Calle Ejemplo 1234<br>Montevideo, Uruguay</p>
+        <p class="telefono-texto">Llamanos al 0000 0000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAPA ===== -->
+  <section id="ubicacion" class="section mapa">
+    <div class="section-head">
+      <p class="eyebrow">Cómo llegar</p>
+      <h2>Dónde encontrarnos</h2>
+    </div>
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps?q=Bar+del+Barrio+Montevideo+Uruguay&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mapa de ubicación de Bar del Barrio">
+      </iframe>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-logo">Bar del Barrio</p>
+    <p>&copy; <span id="year"></span> Bar del Barrio. Montevideo, Uruguay.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
